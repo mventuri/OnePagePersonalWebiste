@@ -3,7 +3,8 @@ $(".img-fluid").hide();
 
 $.ajax({
   type: "GET",
-  url: "https://www.marcoventuritest.it/wooTest/wp-json/wp/v2/pages/1691",
+  url:
+    "https://www.marcoventuritest.it/wooTest/wp-json/wp/v2/pages/1691?password=vlCzQGW2Ln",
   dataType: "json",
   success: function(respJson) {
     var article = respJson.content.rendered;
